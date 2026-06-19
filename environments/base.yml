@@ -1,0 +1,12 @@
+name: mlip-screening-base
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - openpyxl
+  - pyyaml
+  - tqdm
+  - ase

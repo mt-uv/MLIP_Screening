@@ -1,0 +1,21 @@
+model: equiformer
+
+device: cuda
+fmax: 0.02
+max_steps: 500
+
+default_array_jobs: 10
+write_partial: true
+
+fullna_dir: data/example_fullNa
+halfna_dir: data/example_halfNa
+output_dir: results/equiformer_v3
+
+repo_root: ${EQUIFORMER_V3_ROOT}
+original_config: ${EQUIFORMER_V3_ROOT}/experimental/configs/omat24/salex_mptrj/experiments/gradient/equiformer_v3_grad-finetune_N@7_L@4_attn-hidden@32_rbf@64_max-neighbors@300_attn-grid@14-8_ffn-grid@14_attn-eps@1e-8_lr@0-5e-5-warmup@0.1-epochs@2-mptrj-salex-ratio@8-bs@256-wd@1e-3-beta2@0.98-eps@1e-6_pt-reg-dens-ft-no-reg-lr@1e-4.yml
+
+hf_repo_id: mirror-physics/equiformer_v3
+hf_checkpoint_file: checkpoint/omat24-mptrj-salex_gradient.pt
+
+cpu: false
+seed: 42

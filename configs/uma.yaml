@@ -1,0 +1,14 @@
+model: uma
+device: cuda
+fmax: 0.02
+max_steps: 500
+default_array_jobs: 10
+write_partial: true
+fullna_dir: data/example_fullNa
+halfna_dir: data/example_halfNa
+output_dir: results/uma
+checkpoint_repo: facebook/UMA
+checkpoint_file: uma-s-1p1.pt
+checkpoint_subfolder: checkpoints
+inference_settings: default
+task_name: omat

@@ -1,0 +1,11 @@
+model: orb
+device: cuda
+fmax: 0.02
+max_steps: 500
+default_array_jobs: 10
+write_partial: true
+fullna_dir: data/example_fullNa
+halfna_dir: data/example_halfNa
+output_dir: results/orb
+pretrained_function: orb_v3_conservative_inf_omat
+precision: float32-high

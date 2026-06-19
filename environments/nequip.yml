@@ -1,0 +1,22 @@
+name: nequip-screening
+
+channels:
+  - conda-forge
+  - pytorch
+
+dependencies:
+  - python=3.10
+
+  - numpy
+  - pandas
+  - openpyxl
+  - pyyaml
+  - tqdm
+  - ase
+
+  - pip
+
+  - pip:
+      - torch>=2.6
+      - nequip
+      - huggingface_hub

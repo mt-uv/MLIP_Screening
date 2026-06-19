@@ -1,0 +1,29 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.ipynb_checkpoints/
+.env
+.venv/
+.DS_Store
+
+# Large input and output data
+*.xlsx
+*.csv
+*.log
+*.traj
+*.db
+*.pt
+*.pt2
+*.pth
+*.ckpt
+*.model
+*.nequip.pt2
+
+# Keep folder structure but ignore large local data by default
+data/cifs_fullNa/*.cif
+data/cifs_halfNa/*.cif
+checkpoints/*
+!checkpoints/.gitkeep
+results/*/*
+!results/*/.gitkeep

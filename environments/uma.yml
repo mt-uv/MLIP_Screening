@@ -1,0 +1,23 @@
+name: uma-screening
+
+channels:
+  - conda-forge
+  - pytorch
+
+dependencies:
+  - python=3.10
+
+  - numpy
+  - pandas
+  - openpyxl
+  - pyyaml
+  - tqdm
+  - ase
+
+  - pytorch
+
+  - pip
+
+  - pip:
+      - fairchem-core
+      - huggingface_hub

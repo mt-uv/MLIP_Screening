@@ -1,0 +1,21 @@
+name: orb-screening
+
+channels:
+  - conda-forge
+  - pytorch
+
+dependencies:
+  - python=3.10
+  - pip
+
+  - numpy
+  - pandas
+  - openpyxl
+  - pyyaml
+  - tqdm
+  - ase
+  - pytorch
+
+  - pip:
+      - orb-models
+      - huggingface_hub

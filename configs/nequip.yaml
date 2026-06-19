@@ -1,0 +1,11 @@
+model: nequip
+device: cuda
+fmax: 0.02
+max_steps: 500
+default_array_jobs: 10
+write_partial: true
+fullna_dir: data/example_fullNa
+halfna_dir: data/example_halfNa
+output_dir: results/nequip
+model_path: checkpoints/model.nequip.pt2
+chemical_species_to_atom_type_map: true

@@ -1,0 +1,16 @@
+name: mace-screening
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - openpyxl
+  - pyyaml
+  - tqdm
+  - ase
+  - pytorch
+  - pip:
+      - mace-torch
