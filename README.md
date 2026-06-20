@@ -135,7 +135,11 @@ If the `.pt2` model was compiled for CUDA, it must be run on a CUDA-enabled mach
 
 EquiformerV3 calculations were performed using the EquiformerV3 source code.
 
-Clone or place the EquiformerV3 source code separately, then set:
+Clone or place the EquiformerV3 source code separately, 
+
+https://github.com/atomicarchitects/equiformer_v3
+
+then set:
 
 ```bash
 export EQUIFORMER_V3_ROOT=/path/to/equiformer_v3
